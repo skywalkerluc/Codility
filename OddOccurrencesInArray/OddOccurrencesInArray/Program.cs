@@ -34,7 +34,7 @@ namespace OddOccurrencesInArray
         static int[] generateRandomValues()
         {
             Random rand = new Random();
-            int[] values = new int[10];
+            int[] values = new int[5000];
 
             for (int i = 0; i < values.Length; i++)
             {
